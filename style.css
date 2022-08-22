@@ -1,0 +1,68 @@
+body{
+    background-image: url("2393395.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 12%;
+
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+
+
+#container{
+    position: center;
+    border: 5px solid black;
+    height: 250px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("hiscar.jpg");
+    background-size: cover;
+    background-position: left;
+    ;
+
+
+
+    
+    
+}
+
+#warning{
+    font-style: italic;
+    color: wheat;
+    position: absolute;
+    
+    top: 25px; 
+    left: 315px;
+
+}
+#btn {
+    margin: 50px auto;
+    text-decoration: underline;
+    color: rgb(248, 248, 168);
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: rgb(151, 2, 2);
+    box-shadow: 10px 5px 5px darkred;
+}
+
+#output{
+     margin: 25px auto;
+     font-size: 26px;
+     color: white;
+}
+
+#pa{
+    font-family: italic;
+    position: relative;
+    left: 330px;
+    top: -210px;
+    color: white;
+}
+
+
+
+
