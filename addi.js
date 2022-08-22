@@ -107,11 +107,8 @@ let quote = ["Say you’re mine, I’m yours for the night  -Party Monster-",
  "I just can't say I don't love you cause I love you  -Die for you-",
  "I try to find reason to pull us apart, it ain't workin' 'cause you're perfect and I can't walk away  -Die for You-",
  "I dont wanna hurt you, but you live for the pain  -Shameless-",
- "Ill always be there for you -Shameless"
-
-
-
-
+ "Ill always be there for you -Shameless",
+ "I wanna fuck you slow with the lights on  -Lost in the fire-"
 
 
 ];
@@ -119,3 +116,25 @@ btn.addEventListener("click", function(){
     var randomQuote = quote[Math.floor(Math.random() * quote.length)]
     output.innerHTML = randomQuote;
 })
+
+
+function chargebattery() {
+    var a;
+    a = document.getElementById("div1");
+    a.innerHTML = "&#xf244;";
+    setTimeout(function () {
+        a.innerHTML = "&#xf243;";
+      }, 1000);
+    setTimeout(function () {
+        a.innerHTML = "&#xf242;";
+      }, 2000);
+    setTimeout(function () {
+        a.innerHTML = "&#xf241;";
+      }, 3000);
+    setTimeout(function () {
+        a.innerHTML = "&#xf240;";
+      }, 4000);
+      
+  }
+  chargebattery();
+  setInterval(chargebattery, 5000);
